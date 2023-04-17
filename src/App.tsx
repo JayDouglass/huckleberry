@@ -6,17 +6,22 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header>
-        <div className="max-width-wrapper">
+      <header className="mt-[96px] pl-6">
+        <div className="max-width-wrapper max-w-sm">
           <div className="intro-chunk">
-            <h1 className="title">Huckleberry</h1>
+            <h1 className="title text-[2rem] font-[800] mb-[48px]">
+              Huckleberry
+            </h1>
 
-            <p>
-              An avant-garde agency focused on connecting
-              <strong>passion</strong> with <strong>logistics</strong>.
+            <p className="text-[1.25rem] mb-4">
+              An avant-garde agency focused on connecting{" "}
+              <strong className="text-[--color-primary]">passion</strong> with{" "}
+              <strong className="text-[--color-primary]">logistics</strong>.
             </p>
 
-            <p>A better way to solve the problems of tomorrow.</p>
+            <p className="text-[1.25rem]">
+              A better way to solve the problems of tomorrow.
+            </p>
           </div>
         </div>
       </header>

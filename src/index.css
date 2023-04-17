@@ -14,3 +14,7 @@ body {
 } */
 
 /* Add styles here! */
+
+:root {
+  --color-primary: hsl(160deg, 100%, 30%);
+}
