@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: 'Lato', sans-serif;
 }
 
-html,
+/* html,
 body {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Add styles here! */
