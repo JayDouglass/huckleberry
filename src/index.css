@@ -14,3 +14,11 @@ body {
 } */
 
 /* Add styles here! */
+
+:root {
+  --color-gray-medium: hsl(0deg, 0%, 40%);
+  --color-gray-light: hsl(0deg, 0%, 60%);
+  --color-green: hsl(160deg, 100%, 30%);
+  --color-gold-lighter: hsl(45deg, 100%, 50%);
+  --color-gold-darker: hsl(45deg, 100%, 40%)
+}
